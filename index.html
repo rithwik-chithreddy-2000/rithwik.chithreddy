@@ -1,49 +1,20 @@
+<!DOCTYPE html>
 <html>
 
-<head>
-
-	<title>Demo</title>
-
-	<link rel="stylesheet" type="text/css" href="index.css">
-
-</head>
-
-<body id = "bod">
-
-	<h2 id="vit">VR</h2>
-
-	<p id="heading">Virtual Reality</p>
-
-	<hr/>
-
-	<p id="subj">Aframe<br/></p>
-
-	<p id="links"><a href="http://www.google.com" target="_blank"><u>Google</u></a></p>
-
-	<p><img src="http://www.vit.ac.in/images/logo1.png"></p>
-
-	<!--<label>Name: </label>
-
-	<input type="button" value="Rithwik"/>
-
-	<table border=1>
-
-		<tr>
-
-		<th>Name</th>
-
-		<th>Age</th>
-
-		</tr>
-
-		<tr>
-
-		<th>Rithwik</th>
-
-		<th>18</th>
-
-		</tr>-->
-
-</body>
-
+	<head>
+		<title>Demo</title>
+		<link rel="stylesheet" href="index.css" />
+		<script src="js/index.js" ></script>
+	</head>
+	
+	<body>
+		<h1>Login Form</h1>
+		<form name="loginform" method="POST" id="loginform">
+			<label>Username:</label> 
+			<input id="username" type="text"/><br/><br/>
+			<label>Password:</label>
+			<input id="password" type="password"/><br/><br/>
+			<input id="submit" type="button" value="SUBMIT" onclick="validate()"/>
+		</form>
+	</body>
 </html>
